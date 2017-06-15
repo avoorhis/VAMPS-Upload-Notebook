@@ -17,6 +17,10 @@
 - May need to rename newly created files in public/json
 - Start node.js VAMPS server: node bin/www
 ## Test: there are three small test fasta files for testing
-##### Open the jupyer notebook: 'jupyter notebook'
-
-
+##### Open the jupyter notebook: 'jupyter notebook'
+- Start the VAMPS Py-jupyter notebook server
+- Edit the second panel to indicate which fasta file and how it is formatted.
+- Run each panel in succession.
+- If there is an error back up examine it and try a correction.
+- If successful you will need to run rebuild_vamps_files.py -host localhost -pids <add project_ids>
+- it is in the public/scripts/maintenance_scripts directory of vamps-node.js
