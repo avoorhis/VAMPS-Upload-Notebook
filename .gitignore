@@ -1,13 +1,4 @@
 .sql
-*.fa
-*.fna
-*.fasta
-.vagrant
-public/scripts/*.pyc
-old_2_new_vamps_by_project.py
-rebuild_vamps_files.py
-metadata_files_synchrony.py
-export_project.sh
 *.pyc
 !db_schema.sql
 !db_config.sql.gz
@@ -15,7 +6,6 @@ export_project.sh
 !db_schema_w_test_data.sql.gz
 *.csv.gz
 *.csv
-newrelic.js
 bin/versions.sh
 version.log
 config/db-connection*
@@ -24,7 +14,7 @@ config/config.js
 config/db_vamps_node.sql.gz
 config/old/*
 
-/work/*
+work/*
 
 # keeping empty dirs
 logs/*
