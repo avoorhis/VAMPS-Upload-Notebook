@@ -17,6 +17,9 @@ config/db_vamps_node.sql.gz
 config/old/*
 mothur.*.logfile
 work/*
+.ipynb_checkpoints
+.DS_Store
+__pycache__
 
 # keeping empty dirs
 logs/*
